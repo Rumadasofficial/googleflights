@@ -1,0 +1,87 @@
+{
+  "SearchFlight":{
+  	"Data":[
+    		[	
+      			{"from": "Chennai"},
+      			{"to": "Port Blair"},
+      			{"Date":"18/12/2020"}
+     		]
+    ]	
+ } ,
+ "SelectRoundTripFlight":{
+  	"Data":[
+    		[	
+      			{"from": "Chennai"},
+      			{"to": "Port Blair"},
+      			{"DepartureDate":"18/12/2020"},
+      			{"ReturnDate":"22/12/2020"}
+     		]
+    ]	
+} ,
+"TestDataForRoundTrip":{
+       "Data" :[
+                [	
+      			{"from": "Kolkata"},
+      			{"to": "Pune"},
+      			{"DepartureDate":"19/12/2020"},
+      			{"ReturneDate":"23/12/2020"}
+      			
+       		]
+     ]
+ },
+ "TestDataForOneWay":{
+       "Data" :[
+                [	
+      			{"from": "Kolkata"},
+      			{"to": "Pune"},
+      			{"DepartureDate":"19/12/2020"}
+      			]
+               ]
+           
+
+
+},
+"TestDataForMultiCity":{
+       "Data" :[
+                [	
+      			{"from": "Kolkata"},
+      			{"to": "Pune"},
+      			{"DepartureDate":"19/12/2020"},
+      			{"from1": "Patna"},
+      			{"to": "Ranchi"},
+      			{"DepartureDate1":"5/1/2021"}
+      			]
+               ]
+           
+
+
+},
+"TestDataForMenu":{
+       "Data" :[
+                [	
+      			{"first": "xyz"},
+      			{"Second": "Explore"},
+      			{"Third":"Things to do"},
+      			{"forth": "Flights"},
+      			{"Fifth": "Hotels"},
+      			{"Sixth":"Vacation rentals"}
+      			]
+               ]
+},
+"FlighOptionselected":{
+       "Data" :[
+                [	
+      			{"option": "Flights"}
+      			]
+      			]
+},
+"SearchTripTypes":{
+       "Data" :[
+                [	
+      			{"option1": "Round trip"},
+      			{"option2": "One way"},
+      			{"option3": "Multi-city"}
+      			]
+      			]
+}
+}
